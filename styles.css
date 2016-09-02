@@ -61,10 +61,8 @@ img {
 #rect {
   width: 500px;
   padding: 10px;
-  border: 5px solid #C0C0C0;
-  background: white;
-  margin: 10px; 
-  color: #074566;
+  border: 1px solid #C0C0C0;
+  margin: auto;
 }
 
 #smallrect {
@@ -75,16 +73,15 @@ img {
 }
 
 #container{
-  position: relative;  
+    
 }
-
 #main_image{
     width: 100%;
     height: 100%;
     z-index: -1;
 }
-
 #overlay_image{
-    display: inline-block;
+    top: 15px;
+    left: 40px;
 }
 
