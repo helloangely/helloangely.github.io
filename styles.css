@@ -35,7 +35,7 @@ h1,h2 {
 }
 
 .container { 
-  padding: 0px;
+  padding: 0px !important;
 }
 
 a {color: #074566 !important;}
