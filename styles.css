@@ -37,6 +37,7 @@ h1,h2 {
 a {color: #074566 !important;}
 a:hover {
   color: green;
+  text-shadow: 0 0 3px #00e7ca;
 }
 
 h1 { font-size: 3.5em; }
