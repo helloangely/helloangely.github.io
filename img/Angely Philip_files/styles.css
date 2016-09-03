@@ -12,8 +12,6 @@ h1,h2 {
   color: #074566;
 }
 
-
-
 .coolfont {
   font-family: 'Lato', sans-serif;
 }
@@ -27,17 +25,9 @@ h1,h2 {
 }
 
 .menufooter {
-  width: 300px;
-  padding-top: 15px;
-  margin-right: auto !important;
-  margin-left: auto !important;
-   
+  width: 200px;
 }
 
-a {color: #074566 !important;}
-a:hover {
-  color: green;
-}
 
 h1 { font-size: 3.5em; }
 h2 {
