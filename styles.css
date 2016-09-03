@@ -14,7 +14,6 @@ div, br, p {
 
 h1,h2 {
   font-weight: 200;
-  margin: 0.4em 0;
   color: #074566;
 }
 
@@ -27,7 +26,6 @@ h2 {
 }
 
 html,body {
-  margin-left: 12px;
   font-size: 18px;
   background: #FFFFFF;
   color: black;
@@ -39,6 +37,10 @@ img {
 }
 
 /* classes */
+
+.pattern {
+  background: url("img/pattern.svg");
+}
 
 .coolfont { 
   font-family: 'Lato', sans-serif; 
@@ -62,6 +64,7 @@ img {
   padding: 10px;
   border: 1px solid #C0C0C0;
   margin: auto;
+  background: #FFFFFF;
 }
 
 
