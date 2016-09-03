@@ -40,6 +40,7 @@ img {
 
 .pattern {
   background: url("img/pattern.svg");
+  background-size: content;
 }
 
 .coolfont { 
