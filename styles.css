@@ -1,3 +1,17 @@
+/* fonts */
+
+@import 'https://fonts.googleapis.com/css?family=Lato:100';
+@import 'https://fonts.googleapis.com/css?family=Rajdhani';
+
+.rajfont {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.coolfont { 
+  font-family: 'Lato', sans-serif; 
+}
+
+
 /* changing page element properties */
 
 a { 
@@ -36,7 +50,7 @@ img {
   height: 20%;
 }
 
-/* classes */
+/* trianglify backgrounds */
 
 .pattern {
   background: url("img/pattern.svg");
@@ -59,9 +73,7 @@ img {
   background-size: content;
 }
 
-.coolfont { 
-  font-family: 'Lato', sans-serif; 
-}
+/* various classes */
 
 .headerspace { 
   height: 150px; 
