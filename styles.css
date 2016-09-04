@@ -42,6 +42,22 @@ img {
   background: url("img/pattern.svg");
   background-size: content;
 }
+.pattern2 {
+  background: url("img/pattern2.svg");
+  background-size: content;
+}
+.pattern3 {
+  background: url("img/pattern3.svg");
+  background-size: content;
+}
+.pattern4 {
+  background: url("img/pattern4.svg");
+  background-size: content;
+}
+.pattern5 {
+  background: url("img/pattern5.svg");
+  background-size: content;
+}
 
 .coolfont { 
   font-family: 'Lato', sans-serif; 

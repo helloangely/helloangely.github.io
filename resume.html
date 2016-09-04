@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="pattern">
+<html class="pattern2">
   <head>
     <meta charset="utf-8">
     <title>Angely Philip</title>
@@ -14,10 +14,14 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </head>
 
 
- <body class="pattern">
+<body class="pattern2">
 
 <div class="container coolfont">
 
@@ -34,58 +38,83 @@
   </div>
 
   <div class="row">
+
     <div class="col-md-4">
-      <h4><i class="fa fa-book fa-2x" aria-hidden="true"></i> Coursework </h4>
-        Fundementals of Computing Theory,
-        Algorithm Design and Analysis,
-        iOS Application Development,
-        Calculus,
-        Discrete Structures
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#coursework">
+        <h4><i class="fa fa-book fa-2x" aria-hidden="true"></i> Coursework </h4>
+      </button>
+          <div id="coursework" class="collapse">
+            Fundementals of Computing Theory,
+            Algorithm Design and Analysis,
+            iOS Application Development,
+            Calculus,
+            Discrete Structures
+          </div>
     </div>
 
 
     <div class="col-md-4">
-      <h4><i class="fa fa-code fa-2x" aria-hidden="true"></i> Programming Languages</h4>
-      <img src="img/python.png">
-      <img src="img/java.png">
-      <img src="img/cplusplus.png" >
-      <img src="img/swift.png" >
-      <img src="img/scheme.png">
-      <img src="img/perl.svg">
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#programming">
+        <h4><i class="fa fa-code fa-2x" aria-hidden="true"></i> Programming Languages</h4>
+      </button>
+          <div id="programming" class="collapse">
+            <img src="img/python.png">
+            <img src="img/java.png">
+            <img src="img/cplusplus.png" >
+            <img src="img/swift.png" >
+            <img src="img/scheme.png">
+            <img src="img/perl.svg">
+          </div>
     </div>
 
 
     <div class="col-md-4">
-      <h4><i class="fa fa-database fa-2x" aria-hidden="true"></i> Databases</h4>
-      <img src="img/postgres.png">
-      <img src="img/sql.png">
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#database">
+        <h4><i class="fa fa-database fa-2x" aria-hidden="true"></i> Databases</h4>
+      </button>
+        <div id="database" class="collapse">
+          <img src="img/postgres.png">
+          <img src="img/sql.png">
+        </div>
     </div>
   </div>
 
   <div class="row">
+
     <div class="col-md-4">
-      <h4>Previous Companies and Organizations</h4>
-      <img src="img/jpmorgan.png" >
-      <img src="img/pwc.png" >
-      <img src="img/cewit.png">
-      <img src="img/cfa.png">
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#companies">
+        <h4>Previous Companies and Organizations</h4>
+      </button>
+      <div id="companies" class="collapse">
+        <img src="img/jpmorgan.png">
+        <img src="img/pwc.png" >
+        <img src="img/cewit.png">
+        <img src="img/cfa.png">
+      </div>
     </div>
 
     <div class="col-md-4">
-      <h4>Front-end</h4>
-      <img src="img/foundation.svg">
-      <img src="img/bootstrap.png" >
-      <img src="img/webdev.png" >
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#frontend">
+        <h4>Front-end</h4>
+      </button>
+        <div id="frontend" class="collapse">
+          <img src="img/foundation.svg">
+          <img src="img/bootstrap.png" >
+          <img src="img/webdev.png" >
+        </div>
     </div>
 
     <div class="col-md-4">
-      <h4>Other</h4>
-      <img src="img/github.png" >
-      <img src="img/scrum.png" >
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#other">
+        <h4>Other</h4>
+      </button>
+        <div id="other" class="collapse">
+          <img src="img/github.png" >
+          <img src="img/scrum.png" >
+        </div>
     </div>
 
   </div>
-
 
 
   <div class="row menufooter">
