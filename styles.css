@@ -60,10 +60,12 @@ ul {
 .pattern {
   background: url("img/pattern.svg");
   background-size: content;
+
 }
 .pattern2 {
   background: url("img/pattern2.svg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .pattern3 {
   background: url("img/pattern3.svg");
