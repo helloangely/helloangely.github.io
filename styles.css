@@ -50,6 +50,11 @@ img {
   height: 20%;
 }
 
+ul {
+  list-style: none;
+  text-align: left;
+}
+
 /* trianglify backgrounds */
 
 .pattern {
