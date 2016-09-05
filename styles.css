@@ -20,6 +20,7 @@ a {
 
   a:hover { 
     text-shadow: 0 0 3px #00e7ca; 
+    cursor: crosshair;
   }
 
 div, br, p { 
@@ -157,9 +158,9 @@ ul {
   color: #fff;
   background-color: #3276b1;
   border-color: #285e8e;
+  cursor: crosshair;
 }
-HTML  CSS   Result
-Edit on 
+
 /**************************
   DEFAULT BOOTSTRAP STYLES
 **************************/
