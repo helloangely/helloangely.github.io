@@ -63,7 +63,7 @@ ul {
 }
 .pattern2 {
   background: url("img/pattern2.svg");
-  background-size: content;
+  background-size: cover;
 }
 .pattern3 {
   background: url("img/pattern3.svg");
@@ -71,11 +71,11 @@ ul {
 }
 .pattern4 {
   background: url("img/pattern4.svg");
-  background-size: content;
+  background-size: cover;
 }
 .pattern5 {
   background: url("img/pattern5.svg");
-  background-size: content;
+  background-size: cover;
 }
 
 /* various classes */
