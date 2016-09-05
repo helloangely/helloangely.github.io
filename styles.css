@@ -40,8 +40,12 @@ h2 {
 }
 
 html,body {
+  background: url('img/pattern.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-size: 18px;
-  background: #FFFFFF;
   color: black;
 }
 
@@ -64,7 +68,7 @@ ul {
 }
 .pattern2 {
   background: url("img/pattern2.svg");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .pattern3 {
