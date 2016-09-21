@@ -19,7 +19,7 @@ a {
 }
 
   a:hover {
-    text-shadow: 0 0 3px #00e7ca;
+    text-shadow: 0 0 10px #ccfff2;
   }
 
 div, br, p {
