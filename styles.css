@@ -94,11 +94,11 @@ ul {
   padding-top: 15px;
   margin-right: auto !important;
   margin-left: auto !important;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
 }
 
 .menupics a:hover b {
-    display: block;
+    
     text-decoration: none;
 }
 
@@ -116,6 +116,15 @@ ul {
 
 .top-buffer {
   margin-top: 20px;
+}
+
+.bottom-buffer {
+  margin-bottom: 40px;
+}
+
+.sidebuffer {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .img-circle {
