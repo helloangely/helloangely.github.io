@@ -1,14 +1,13 @@
 /* fonts */
 
-@import 'https://fonts.googleapis.com/css?family=Lato:100';
-@import 'https://fonts.googleapis.com/css?family=Rajdhani';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .rajfont {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .coolfont {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
@@ -41,18 +40,12 @@ h2 {
 }
 
 html,body {
-  background: url('img/marble.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-size: 18px;
   color: black;
-}
-
-img {
-  width: 50px;
-  height: 50px;
 }
 
 ul {
@@ -99,7 +92,7 @@ ul {
 }
 
 .menupics a:hover b {
-    
+
     text-decoration: none;
 }
 
@@ -420,5 +413,3 @@ ul {
 .timeline-body > p + p {
   margin-top: 5px;
 }
-
-

@@ -2,89 +2,85 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head >
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Angely Philip</title>
+    <title>helloangely</title>
     <link rel="stylesheet" href="./img/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <script src="./script.js"></script>
-    
+    <script type="text/javascript" src="./fullPage.js-master/scrolloverflow.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./fullPage.js-master/jquery.fullPage.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./fullPage.js-master/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="./fullPage.js-master/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $('#fullpage').fullpage({
+          //Navigation
+          menu: '#menu',
+          lockAnchors: false,
+          anchors:['home', 'experiences', 'skills', 'aboutme'],
+          navigation: false,
+          navigationPosition: 'right',
+          navigationTooltips: ['firstSlide', 'secondSlide'],
+          showActiveTooltip: false,
+          slidesNavigation: true,
+          slidesNavPosition: 'bottom',
 
-<script type="text/javascript" src="./fullPage.js-master/scrolloverflow.min.js"></script>
-<link rel="stylesheet" type="text/css" href="./fullPage.js-master/jquery.fullPage.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="./fullPage.js-master/jquery.fullPage.js"></script>
-<script type="text/javascript" src="./fullPage.js-master/jquery.fullPage.js"></script>
+          //Scrolling
+          css3: true,
+          scrollingSpeed: 700,
+          autoScrolling: true,
+          fitToSection: true,
+          fitToSectionDelay: 1000,
+          scrollBar: false,
+          easing: 'easeInOutCubic',
+          easingcss3: 'ease',
+          loopBottom: false,
+          loopTop: false,
+          loopHorizontal: true,
+          continuousVertical: false,
+          continuousHorizontal: false,
+          scrollHorizontally: false,
+          interlockedSlides: false,
+          resetSliders: false,
+          fadingEffect: false,
+          normalScrollElements: '#element1, .element2',
+          scrollOverflow: true,
+          scrollOverflowOptions: null,
+          touchSensitivity: 15,
+          normalScrollElementTouchThreshold: 5,
+          bigSectionsDestination: null,
 
+          //Accessibility
+          keyboardScrolling: true,
+          animateAnchor: true,
+          recordHistory: true,
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-    $('#fullpage').fullpage({
-        //Navigation
-        menu: '#menu',
-        lockAnchors: false,
-        anchors:['home', 'experiences', 'skills', 'aboutme'],
-        navigation: false,
-        navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide'],
-        showActiveTooltip: false,
-        slidesNavigation: true,
-        slidesNavPosition: 'bottom',
+          //Design
+          controlArrows: true,
+          verticalCentered: true,
+          sectionsColor : ['', '#fff', '#f2f2f2', '#fff'],
+          paddingTop: '0em',
+          paddingBottom: '10px',
+          fixedElements: '#header, .footer',
+          responsiveWidth: 0,
+          responsiveHeight: 0,
+          responsiveSlides: false,
 
-        //Scrolling
-        css3: true,
-        scrollingSpeed: 700,
-        autoScrolling: true,
-        fitToSection: true,
-        fitToSectionDelay: 1000,
-        scrollBar: false,
-        easing: 'easeInOutCubic',
-        easingcss3: 'ease',
-        loopBottom: false,
-        loopTop: false,
-        loopHorizontal: true,
-        continuousVertical: false,
-        continuousHorizontal: false,
-        scrollHorizontally: false,
-        interlockedSlides: false,
-        resetSliders: false,
-        fadingEffect: false,
-        normalScrollElements: '#element1, .element2',
-        scrollOverflow: true,
-        scrollOverflowOptions: null,
-        touchSensitivity: 15,
-        normalScrollElementTouchThreshold: 5,
-        bigSectionsDestination: null,
+          //Custom selectors
+          sectionSelector: '.section',
+          slideSelector: '.slide',
 
-        //Accessibility
-        keyboardScrolling: true,
-        animateAnchor: true,
-        recordHistory: true,
-
-        //Design
-        controlArrows: true,
-        verticalCentered: true,
-        sectionsColor : ['', '#fff', '#f2f2f2', '#fff'],
-        paddingTop: '0em',
-        paddingBottom: '10px',
-        fixedElements: '#header, .footer',
-        responsiveWidth: 0,
-        responsiveHeight: 0,
-        responsiveSlides: false,
-
-        //Custom selectors
-        sectionSelector: '.section',
-        slideSelector: '.slide',
-
-        //events
-        onLeave: function(index, nextIndex, direction){},
-        afterLoad: function(anchorLink, index){},
-        afterRender: function(){},
-        afterResize: function(){},
-        afterResponsive: function(isResponsive){},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-    });
-});
-  </script>
+          //events
+          onLeave: function(index, nextIndex, direction){},
+          afterLoad: function(anchorLink, index){},
+          afterRender: function(){},
+          afterResize: function(){},
+          afterResponsive: function(isResponsive){},
+          afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+          onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+      });
+  });
+    </script>
 
 
     <!-- Latest compiled and minified CSS -->
@@ -101,431 +97,73 @@
 
   <div class="section">
     <div class="container">
-      <div class="row headerspace">
-        <div class="col-md-12 text-left">
-        <h1 class="coolfont">This girl
-        <span
-           class="txt-rotate"
-           data-period="2000"
-           data-rotate='[ "finds computing an art,", "seeks out new challenges,", "brings unique perspectives,", "has no limits,", "is Angely." ]'></span>
-        </h1>
-      </div>
-    </div>
 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="rajfont" id="smallrect">
-            <br> Hi there, Angely here! I'm a fourth year undergraduate studying Computer Science and specializing in Intelligent Systems at Indiana University Bloomington. My focus area is comprised of what we would consider in our modern society as robotics.
-            </br>
-            <br>
-            <i class="fa fa-android fa-2x" aria-hidden="true"></i>
-            </br>
-            <br>
-            To answer your question right now, yes, robots are going to take over the world. Exploring the vast unknown of our horizon on AI is like seeing further into the universe. The more we explore, the more we don't know. I find it exciting to be given a challenge that can transform how we live today.
-            </br>
+      <div class="slide">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="rajfont" id="smallrect">
+
+              Angely Rose Philip
+
+              <hr />
+
+              I work at YipitData, a company that provides practical web data intelligence to institutional investors.
+              As a Data Product Engineer, I specialize in developing systems and methodologies to collect hundreds of terabytes of public data that enable granular analyses on current company metrics and performance.
+              Since December my efforts have been focused on a scalable data parsing and processing project.
+
+            </div>
           </div>
         </div>
-      </div>
 
       <div class="row menufooter">
-        
-
         <div class="col-xs-2 menupics">
-          <a href="#experiences"><i class="fa fa-building-o fa-2x" aria-hidden="true"></i>
-            
-          </a>
-        </div>
-        <div class="col-xs-2 menupics">
-          <a href="#skills"><i class="fa fa-file-code-o fa-2x" aria-hidden="true"></i>
-            
+          <a href="https://github.com/helloangely">
+            <i class="fa fa-file-code-o fa-2x" aria-hidden="true"></i>
           </a>
         </div>
 
         <div class="col-xs-2 menupics">
-          <a href="#aboutme"><i class="fa fa-female fa-2x" aria-hidden="true"></i>
-          
-        </a>
+            <a href="https://www.linkedin.com/in/angelyphilip">
+              <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
         </div>
 
         <div class="col-xs-2 menupics">
-          <a href="mailto:anphilip@indiana.edu"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-          
-        </a>
-        </div>
-
-        <div class="col-xs-2 menupics">
-            <a href="https://www.linkedin.com/in/angelyphilip"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-            
+          <a href="https://www.instagram.com/helloangely/">
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
           </a>
         </div>
-
-        <div class="col-xs-2 menupics">
-          <a href="https://www.instagram.com/helloangely/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-          
-        </a>
-        </div>
-
       </div>
     </div>
-  </div>
 
-  <div class="section">
-
-<div class="container rajfont">
-    <div class="slide"> 
+    <div class="slide">
       <div class="row">
         <div class="col-md-12">
-          <h2> Internships </h2>
-        </div></div>
-
-    <div class="row">
-      <div class="col-md-4 top-buffer">
-        <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#jp1">
-          <h4>Software Engineer</h4>
-          <h5>J.P. Morgan</h5>
-          <h5>Summer 2016</h5>
-        </button>
-        <div id="jp1" class="collapse">
-          Improved the efficiency of a risk calculation test module from 3 hours down to 5 minutes by writing an Artificial Intelligence trade selection agent that select key trades throughout the day and preforms batch processing tests, then reports the results to the team
+          <h2> About Me </h2>
+          <hr />
         </div>
       </div>
 
-      <div class="col-md-4 top-buffer">
-        <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#pwc">
-          <h4>Data Engineer</h4>
-          <h5>PricewaterhouseCooper</h5>
-          <h5>Spring 2016</h5>
-        </button>
-        <div id="pwc" class="collapse">
-        Instrumented and designed a data reading project that improved the efficiency of read input time from 2 hours down to 96 seconds using threading and multiprocessing techniques, ultimately changing the way the team reads and manipulates millions of rows
+      <div class="row">
+        <div class "col-md-12">
+          <img src="img/angely_stock_photo.jpg" style="width:50%">
         </div>
       </div>
-
-    <div class="col-md-4 top-buffer">
-      <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#jp2">
-        <h4>Software Engineer</h4>
-        <h5>J.P. Morgan</h5>
-        <h5>Summer 2015</h5>
-      </button>
-      <div id="jp2" class="collapse">
-      Analyzed, documented and enhanced a strategic Reference Data Toolkit application that links to a Hydra Object-Oriented database in the Global Commodities Group while seeing self-proposed project enhancements to completion
-      
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-
-<div class="container rajfont">
-<div class="slide ">
-
-  <div class="row">
+      <div class="row">
         <div class="col-md-12">
-          <h2> Research Positions </h2>
-        </div></div>
-<div class="row">
-    <div class="col-md-4 top-buffer">
-      <button type="button"  class="btn btn-primary btn-lg outline accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#brendel">
-        <h4>Undergraduate Researcher</h4>
-        <h5>Computational Genomics</h5>
-        <h5>Spring 2014</h5>
-      </button>
-      <div id="brendel" class="collapse">
-      Utilized Perl and Python programming languages in a UNIX platform to develop research-assisting programs that analyze large- scale genome sequences under the direction of the Indiana University's department head for Bioinformatics as their exclusive undergraduate researcher
-      </div>
-    </div>
-  
+          I love building projects and provoking creative thought to challenging problems.
+          I graduated with a Bachelors of Science in Computer Science from Indiana University Bloomington in May 2017, and happily hacking away since!
 
-      <div class="col-md-4 top-buffer">
-      <button type="button" class="btn btn-primary btn-lg outline accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#viridi">
-        <h4>Research Assistant</h4>
-        <h5>Viridi Technology</h5>
-        <h5>Summer 2014</h5>
-      </button>
-      <div id="viridi" class="collapse">
-      
-        Analyzed the Chinese and American personal finance markets to implement a mobile personal finance application and
-        Developed Viridi Technology’s Business Plan while assisting in grant research using academic databases and professional research techniques
-      
+        </div>
       </div>
     </div>
 
-    <div class="col-md-4 top-buffer">
-        <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#uroc">
-          <h4>Independent Research</h4>
-          <h5>UROC</h5>
-          <h5>Fall 2014</h5>
-      </button>
-      <div id="uroc" class="collapse">
-       Faculty-chosen to engage in the 2014 - 2015 Undergraduate Research Experience Program for Computer Science majors, independently developing an algorithm that recursively constructs and analyzes images using C++ in a UNIX environment; ultimately presenting research poster at Carnegie Mellon University on behalf of Indiana University
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="container rajfont">
-<div class="slide">
-  <div class="row">
-        <div class="col-md-12">
-          <h2> Leadership </h2>
-        </div></div>
-    <div class="row">
-      <div class="col-md-4 top-buffer">
-        <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#usc">
-          <h4>Vice President</h4>
-          <h5>Union Street Residence Hall</h5>
-          <h5>Fall 2014 and Spring 2016 </h5>
-      </button>
-      <div id="usc" class="collapse">
-Presided over a 17 member Student Government that represented 1000+ residents, creating two resident engagement boards and planning over 20 large-scale community events, ultimately recognized for efforts in Outstanding Community Engagement
-</div>
-      </div>
-
-      <div class="col-md-4 top-buffer">
-      <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#websig">
-        <h4>Lead Intern</h4>
-        <h5>WebSIG, CEWIT</h5>
-        <h5>Spring and Fall 2015</h5>
-      </button>
-      <div id="websig" class="collapse">
-         Organized and instructed a Web Development Special Interest Group, speaking at local conferences, Indiana University lectures and organizations with the purpose of empowering women by teaching Web Development workshops
-      </div>
-    </div>
-
-    <div class="col-md-4 top-buffer">
-        <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#cfa">
-          <h4>Brigade Co-founder</h4>
-          <h5>Code for America </h5>
-          <h5>Spring 2015</h5>
-      </button>
-      <div id="cfa" class="collapse">
-Founded a group in Bloomington that connects technology-minded individuals eager to make a positive impact in their community to local government
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div class="container rajfont ">
-<div class="slide">
-  <div class="row">
-        <div class="col-md-12">
-          <h2> Involvement </h2>
-        </div></div>
-<div class="row">
-      <div class="col-md-4 top-buffer">
-        <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#cfg">
-          <h4>Hackathon</h4>
-          <h5>Code For Good</h5>
-          <h5>Fall 2014</h5>
-      </button>
-      <div id="cfg" class="collapse">
-1st place in division and 2nd place overall at J.P. Morgan’s showcase coding competition, Code for Good in New York City, developing a creative fundraising solution with a team of 5 that benefits The Michael J. Fox Foundation for Parkinson’s Disease
-      </div>
-    </div>
-
-      <div class="col-md-4 top-buffer">
-        <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#sph">
-          <h4>Teaching Assistant</h4>
-          <h5>Indiana University</h5>
-          <h5>Spring 2015 - Spring 2016</h5>
-      </button>
-      <div id="sph" class="collapse">
-Assess quality of work and provide feedback to 120+ students in a Computer Applications in Kinesiology Course, including hands-on instruction in HTML, CSS, and FTP with Dreamweaver and WinSCP environments
-      </div>
-    </div>
-
-      <div class="col-md-4 top-buffer">
-        <button type="button" class="btn btn-primary btn-lg outline" data-toggle="collapse" data-target="#bng">
-          <h4>Art Room Instructor</h4>
-          <h5>Boys and Girls Club</h5>
-          <h5>Fall 2013 - Spring 2014</h5>
-      </button>
-      <div id="bng" class="collapse">
-As a mentor, I serve as an individual role model and leader in group activities to the children that are a part of Bloomington’s Boys and Girls Club After School Program.
-      </div>
     </div>
   </div>
 </div>
 </div>
 </div>
-
-<div class="section">
-  <div class="slide">
-  <div class="container rajfont">
-<div class="row">
-    <div class="row">
-    <div class="col-md-12">
-      <h2> Skills and Technologies </h2>
-    </div>
-  </div>
-
-    <div class="col-md-12 top-buffer">
-      
-        <h4><i class="fa fa-code fa-1x" aria-hidden="true"></i>
-          Programming Languages
-        </h4>
-
-          <div id="programming" class="top-buffer">
-            <div class="row">
-              <div class="col-xs-3">
-                <img src="img/python.png"><p> Python </p></div>
-              <div class="col-xs-3">
-                <img src="img/java.png"><p> Java</p></div>
-              <div class="col-xs-3">
-                  <img src="img/swift.png" ><p> Swift<p></div>
-              <div class="col-xs-3">
-                  <img src="img/cplusplus.png" > <p>C++</p></div></div>
-              <div class="row">
-                <div class="col-xs-3">
-                  <img src="img/scheme.png"> <p>Scheme</p> </div>
-                <div class="col-xs-3">
-                  <img src="img/perl.svg"><p> Perl</p></div>
-                <div class="col-xs-3">
-                  <img src="img/matlab.png"> <p>Matlab </p></div>
-                <div class="col-xs-3">
-                  <img src="img/sql.png"> <p>SQL</p></div></div>
-          </div>
-    </div>
-  </div>
-
-  </div>
- </div>
-
-  <div class="slide">
-  <div class="container rajfont">
-
-  <div class="row">
-    <div class="col-md-12">
-      <h2> Education </h2>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <h4><i class="fa fa-graduation-cap fa-1x" aria-hidden="true"></i>
-        Bachelor of Science in Computer Science, Indiana University Bloomington, May 2017
-      </h4>
-    </div>
-  </div>
-
-    <div class="row">
-    <div class="col-md-12">
-      <h4><i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
-         anphilip@indiana.edu
-      </h4>
-    </div>
-  </div>
-
-  <div class="row">
-
-    <div class="col-md-12 top-buffer">
-        <h4><i class="fa fa-pencil fa-1x" aria-hidden="true"></i>
-          Coursework
-        </h4>
-          <div id="coursework" class="top-buffer">
-            
-              Fundementals of Computing Theory
-              <br>Algorithm Design and Analysis</br>
-              Machine Learning
-              <br>Data Structures</br>
-              Object-Oriented Software Systems
-              <br>iOS Application Development</br>
-              Calculus
-              <br>Discrete Structures</br>
-              Nanotechnology
-              <br>Search</br>
-              Independent Computer Science Research
-              <br>Database Concepts</br>
-              Artificial Intelligence Thoery and Computer Simlulation
-              <br>Computing Tools for Scientific Research</br>
-            
-          </div>
-    </div>
-  </div>
 </div>
-</div>
-
-
-</div>
-
-<div class="section">
-  
-
-  
-    <div class="slide">
-      <div class="container rajfont">
-        <div class="row">
-    <div class="col-md-12 text-center">
-      <h2> About Me </h2>
-    </div>
-  </div>
-    
-    <div class="row">
-    <div class="col-md-6">
-      <img class="img-circle" src="img/angpic.jpg" style="width:250px; height:400px;">
-    </div>
-
-    <div class="col-md-6 text-left bottom-buffer" id="medrect">
-      <h4>Degree</h4>
-      <i>>>Bachelor of Science in Computer Science</i>
-      <h4>Specialization </h4>
-      <i>>>Intelligent Systems</i>
-      <h4>Favorite Class</h4>
-      <i>>>Machine Learning</i>
-      <h4>Minors</h4>
-      <i>>>Mathematics and Informatics</i>
-      <h4>Lived</h4>
-      <i>>>New York, Kerala, Washington D.C., Indiana</i>
-      <h4>Languages spoken</h4>
-      <i>>>English, Spanish, Malayalam (its a palindrome!) </i>
-      <h4>Hobbies</h4>
-      <i>>>Running, watercolor painting, eating pizza, <a href="library.html">reading</a>, practicing yoga.</i>
-    </div>
-
-  </div>
-</div>
-</div>
-
-  <div class="slide">
-      <div class="container rajfont">
-        <div class="row">
-          <div class="col-md-12 sidebuffer">
-    <h4>Fun fact #1</h4>
-    I am obsessed with innovation. In school, I take courses about technology innovation.
-    These courses have taught me about the design lifecylce, how to take an idea and make 
-    it profitable for a company, infrastructure analysis, and start-up fundraising.
-      I believe that change is exicting - I want to work with a company that
-      invites fast iterations, new ideas, and people like me eager to make the world more
-      effecient by exploiting the power of code.
-    </div>
-  </div>
-</div>
-  </div>
-
-    <div class="slide">
-      <div class="container rajfont">
-        <div class="row">
-          <div class="col-md-12 sidebuffer">
-    <h4>Fun fact #2</h4>
-    I went to International Boarding School for two years where at a young age I was exposed to various cultures around the world,
-      ways of thinking, and communicating. I will be honest - I didn't enjoy being half the world away from my family,
-      but looking back at it I had to grow
-      up quickly at an early age to understand people from many different cultures. My closest friends were from Tibet,
-      Maldives, China, Switzerland, and Germany. To this day I can attribute some of my
-      qualities of easily getting along with anyone to my experiences at International Boarding School.
-    </div>
-  </div>
-</div>
-  </div>
-  
-</div>
-</div>
-
-
-</div>
-  </body>
+</body>
 
 </html>
