@@ -1,6 +1,7 @@
 /* fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
 
 .rajfont {
   font-family: 'Roboto', sans-serif;
@@ -11,6 +12,10 @@
   font-weight: bold;
 }
 
+.monotonfont {
+  font-family: 'Monoton', cursive;
+  font-size: 5em;
+}
 
 /* changing page element properties */
 
