@@ -5,165 +5,33 @@
     <title>helloangely</title>
     <link rel="stylesheet" href="./img/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <script src="./script.js"></script>
-    <script type="text/javascript" src="./fullPage.js-master/scrolloverflow.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./fullPage.js-master/jquery.fullPage.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./fullPage.js-master/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="./fullPage.js-master/jquery.fullPage.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-      $('#fullpage').fullpage({
-          //Navigation
-          menu: '#menu',
-          lockAnchors: false,
-          anchors:['home', 'experiences', 'skills', 'aboutme'],
-          navigation: false,
-          navigationPosition: 'right',
-          navigationTooltips: ['firstSlide', 'secondSlide'],
-          showActiveTooltip: false,
-          slidesNavigation: true,
-          slidesNavPosition: 'bottom',
-
-          //Scrolling
-          css3: true,
-          scrollingSpeed: 700,
-          autoScrolling: true,
-          fitToSection: true,
-          fitToSectionDelay: 1000,
-          scrollBar: false,
-          easing: 'easeInOutCubic',
-          easingcss3: 'ease',
-          loopBottom: false,
-          loopTop: false,
-          loopHorizontal: true,
-          continuousVertical: false,
-          continuousHorizontal: false,
-          scrollHorizontally: false,
-          interlockedSlides: false,
-          resetSliders: false,
-          fadingEffect: false,
-          normalScrollElements: '#element1, .element2',
-          scrollOverflow: true,
-          scrollOverflowOptions: null,
-          touchSensitivity: 15,
-          normalScrollElementTouchThreshold: 5,
-          bigSectionsDestination: null,
-
-          //Accessibility
-          keyboardScrolling: true,
-          animateAnchor: true,
-          recordHistory: true,
-
-          //Design
-          controlArrows: true,
-          verticalCentered: true,
-          sectionsColor : ['', '#fff', '#f2f2f2', '#fff'],
-          paddingTop: '0em',
-          paddingBottom: '10px',
-          fixedElements: '#header, .footer',
-          responsiveWidth: 0,
-          responsiveHeight: 0,
-          responsiveSlides: false,
-
-          //Custom selectors
-          sectionSelector: '.section',
-          slideSelector: '.slide',
-
-          //events
-          onLeave: function(index, nextIndex, direction){},
-          afterLoad: function(anchorLink, index){},
-          afterRender: function(){},
-          afterResize: function(){},
-          afterResponsive: function(isResponsive){},
-          afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-          onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-      });
-  });
-    </script>
-
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-<div id="fullpage">
-
-  <div class="section">
     <div class="container">
+      <div class="header">angely</div>
 
-      <div class="slide">
-        <div class="row monotonfont">
-          <div class="col-md-12">
-            angely
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="rajfont" id="smallrect">
-              I work at YipitData, a company that provides practical web data intelligence to institutional investors.
-              As a Data Product Engineer, I specialize in developing systems and methodologies to collect hundreds of terabytes of public data that enable granular analyses on current company metrics and performance.
-              Since December my efforts have been focused on a scalable data parsing and processing project.
-
-            </div>
-          </div>
-        </div>
-
-      <div class="row menufooter">
-        <div class="col-xs-2 menupics">
-          <a href="https://github.com/helloangely">
-            <i class="fa fa-file-code-o fa-2x" aria-hidden="true"></i>
-          </a>
-        </div>
-
-        <div class="col-xs-2 menupics">
-            <a href="https://www.linkedin.com/in/angelyphilip">
-              <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-            </a>
-        </div>
-
-        <div class="col-xs-2 menupics">
-          <a href="https://www.instagram.com/helloangely/">
-            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="slide">
-      <div class="row">
-        <div class="col-md-12 monotonfont">
-          about me
-        </div>
+      <div class="content">
+          I work at <a href="https://www.yipitdata.com">YipitData</a>, a growing startup that aggregates and analyzes public web data.
+          <p />
+          I am learning how to create systems that collect hundreds of terabytes of public data and methodologies that enable granular analyses on current company metrics and performance.
+          <p />
+          Since December my efforts are focused on a scalable data parsing and processing project.
+          <p />
+          Before joining YipitData's Engineering team in July 2017, I graduated from Indiana University with a Bachelors of Science in Computer Science.
       </div>
 
-      <div class="row">
-        <div class "col-md-12">
-          <img src="img/angely_stock_photo.jpg" style="width:50%">
-          <hr />
-        </div>
+      <div class="footer">
+        <a href="https://github.com/helloangely">
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/angelyphilip">
+          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        </a>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          I love building projects and provoking creative thought to challenging problems.
-          I graduated with a Bachelors of Science in Computer Science from Indiana University Bloomington in May 2017, and happily hacking away since!
-          <hr />
-        </div>
-      </div>
-    </div>
 
     </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</body>
+  </body>
 
 </html>
